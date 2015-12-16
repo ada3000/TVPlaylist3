@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <channels>
+    <channel>http://tivix.net/162-bbc-news.html</channel>
+    <channel>http://tivix.net/36-rbk-tv.html</channel>
+    <channel>http://tivix.net/25-2x2.html</channel>
+    <channel>http://tivix.net/79-nauka-2.html</channel>
+    <channel>http://tivix.net/62-rossiya-24.html</channel>
+    <channel>http://tivix.net/16-rossiya-2.html</channel>
+    <channel>http://tivix.net/116-viasat-history.html</channel>
+    <channel>http://tivix.net/286-travel-and-adventure.html</channel>
+    <channel>http://tivix.net/14-discovery-channel.html</channel>
+  </channels>
+</config>
