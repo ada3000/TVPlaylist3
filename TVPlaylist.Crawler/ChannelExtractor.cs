@@ -19,7 +19,9 @@ namespace TVPlaylist.Crawler
             WebClient client = new WebClient();
             Channel result = new Channel();
 
-            string channelContent = client.DownloadString(channelUrl);
+            byte[] channelData = client.DownloadData(channelUrl);
+            string channelContent = System.Text.Encoding.UTF8.GetString(channelData);
+
             Regex findTitle = new Regex(ChannelNameRegEx);
             var mTitle = findTitle.Match(channelContent);
             if (mTitle != null && mTitle.Groups["title"] != null)
