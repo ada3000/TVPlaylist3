@@ -12,5 +12,14 @@ namespace TVPlaylist.Crawler
     {
         [XmlArray("channels"), XmlArrayItem("channel")]
         public string[] Channels;
+
+        [XmlElement("output")]
+        public string Output;
+
+        [XmlElement("startApp")]
+        public string StartApp;
+
+        [XmlElement("startAppArgs")]
+        public string StartAppArgs;
     }
 }

@@ -6,8 +6,12 @@
     <channel>http://tivix.net/25-2x2.html</channel>
     <channel>http://tivix.net/79-nauka-2.html</channel>
     <channel>http://tivix.net/62-rossiya-24.html</channel>
-    <channel>http://tivix.net/16-rossiya-2.html</channel>
     <channel>http://tivix.net/116-viasat-history.html</channel>
     <channel>http://tivix.net/14-discovery-channel.html</channel>
   </channels>
+
+  <output>C:\Users\ai\Documents\TV.m3u</output>
+
+  <startApp>C:\Users\ai\AppData\Roaming\ACEStream\player\ace_player.exe</startApp>
+  <startAppArgs>{output}</startAppArgs>
 </config>
